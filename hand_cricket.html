@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hand cricket</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <button class="rule">rules</button>
+
+ <div class="ov">
+
+    <label for="overs" style="color:white;font-weight: 600;">Enter the number of overs here 👉<input type="number" id="overs" min=1 value="1"></label> 
+    
+  </div>
+
+  <div class="complete">
+     <p id="vv"></p>
+    <div class="border">
+      <div class="inner">
+        <button class="you your"></button>
+        <p class="doboy nec">Yet to bat</p>
+        <p class="aboy nec"></p>
+      </div>
+      <div>
+        <p style="color:whitesmoke;font-weight: 10000;font-size: xx-large;">VS</p>
+      </div>
+      <div class="inner">
+        <button class="you bot"></button>
+        <p class="dobot nec">Yet to bat</p>
+        <p class="abot nec"></p>
+
+      </div>
+
+    </div>
+
+    <div>
+      <p class="kyc">Select heads/Tails</p>
+
+    </div>
+
+
+  </div>
+
+<div class="rules hide">
+  <h2>
+    🏏 Hand Cricket – Rules
+    <span style="float:right; cursor:pointer ; font-size: larger;">❌</span>
+  </h2>
+
+  <ul>
+    <li>This is a 2-innings game between <strong>you</strong> and the <strong>computer (bot)</strong>.</li>
+    <li>You can choose how many overs you want to play.</li>
+    <li>If no overs are selected, the default will be <strong>1 over</strong> (6 balls per innings).</li>
+    <li>Each innings has a maximum of <strong>6 × (number of overs)</strong> deliveries.</li>
+    <li>You only have <strong>1 wicket</strong> – if you're out, your innings ends immediately.</li>
+  </ul>
+
+  <h3>🎮 Gameplay</h3>
+  <ul>
+    <li>Every ball, both you and the <strong>bot</strong> choose a number from <strong>1 to 6</strong>.</li>
+    <li><strong>If the numbers are different:</strong><br>
+      ➤ The batter scores the number they chose.<br>
+      (e.g., you pick 4, bot picks 2 → you score 4)
+    </li>
+    <li><strong>If the numbers match:</strong><br>
+      ➤ The batter is <strong>OUT!</strong> and the innings ends immediately.
+    </li>
+    <li>After one innings, the other player bats and tries to chase the target.</li>
+  </ul>
+
+  <h3>🏆 Result</h3>
+  <ul>
+    <li>The player with the higher score after both innings wins.</li>
+    <li>If both players end up with the same score, it’s a <strong>draw</strong>.</li>
+    <li>In the second innings, the game ends immediately if the chasing player beats the target.</li>
+  </ul>
+
+  <h3>⚠️ Notes</h3>
+  <ul>
+    <li>Only numbers from <strong>1 to 6</strong> are valid – no 0, extras, or bonus balls.</li>
+    <li>The bot picks its number randomly on every ball.</li>
+    <li>To close this rules section, click <strong>“❌”</strong> at the top right.</li>
+  </ul>
+</div>
+
+
+  <div class="pap">
+    <div> <button class="toss a">heads</button></div>
+    <div>
+    <button class="toss b">tails</button></div>
+  </div>
+  <button class="start hide">start</button>
+  <p class="tr"></p>
+
+  <div class="runs hide">
+    <button class="one"></button>
+    <button class="two"></button>
+    <button class="the"></button>
+    <button class="fou"></button>
+    <button class="fiv"></button>
+    <button class="six"></button>
+
+  </div>
+  <button class="restart hide">restart</button>
+
+  <script src="second.js"></script>
+  <script src="first.js"></script>
+  <script src="app.js"></script>
+
+</body>
+
+</html>
