@@ -6,7 +6,8 @@ Virtual-Hand-Cricket game is the digital version of the hand-cricket game which 
 
 ## Features
 ###  Custom Overs Selection ⏱️ :
-You can choose the number of overs you wanted to play . Play a short match by selecting less overs . Play a long match by selecting higher overs . If you dont select anything it will be 1 over match.
+Choose the number of overs you want to play . Short matches (1 over) or longer matches (e.g., 5 overs) based on your preference . 
+ If no input is provided, it defaults to a 1-over match.
 
 ### Toss 🪙 :
 You need to select heads/tails in the beginning . If you win the toss you have option to decide who does what . But if the computer wins the toss you need to do what computer tells you . **REMEMBER THE TOSS IS COMPLETLY FAIR NO BIAS**.
@@ -23,7 +24,7 @@ You can see whats the present score of the players anytime during the game . If 
 ### Result and Restart 🔄:
 **After the game you will see the result and the winning margin as well** . If you want to play more you can restart the game once the game ends .
 
-## GAME-PLAY
+## GAME-PLAY INSTRUCTIONS
 1) Read the rules before you start the game .
 2) Select the number of overs .
 3) Toss the coin and it will decide who does what .
@@ -32,5 +33,14 @@ You can see whats the present score of the players anytime during the game . If 
 6) After the first innings you will get a pop up message that the first innings completed . Click on ok to start second innings .
 7) If you are chasing the target play according to the situation **take risks**,**play slow** keeping
    the track of number of runs needed and number of balls left.
-8) If you are bowling second
+8) If you are bowling second try to restrict the bot as early as possible so that the bot wont come too close to the target.
+9) After the second innings match result will be displayed . You can restart the game by clicking on restart button just below the scoreboard
+
+### 🧠 Technologies Used
+***HTML, CSS, JavaScript***
+
+***No frameworks – pure vanilla JS!***
+
+***Optimized for browser-based interaction.***
+
 
