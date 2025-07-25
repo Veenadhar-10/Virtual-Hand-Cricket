@@ -30,6 +30,7 @@ You can see whats the present score of the players anytime during the game . If 
 4) After the toss click on start button to start first innings .
 5) You will 6 options/choices from **1-6** .If you are batting first score as much as possible .If you are bowling first try to get out the bot as soon as possible.**Keep a track on how many overs left as well**
 6) After the first innings you will get a pop up message that the first innings completed . Click on ok to start second innings .
-7) If you are chasing the target play according to the situation **take risks**,**play slow** keeping the track of number of runs needed and number of balls left.
-8) If you are bowling s
+7) If you are chasing the target play according to the situation **take risks**,**play slow** keeping
+   the track of number of runs needed and number of balls left.
+8) If you are bowling second
 
