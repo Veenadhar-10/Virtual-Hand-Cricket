@@ -17,13 +17,13 @@ body {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
   body {  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-    max-height: 100vh;
-    min-width: 85vw;
+    max-height: 250vh;
+    min-width: 200vw;
   }
   .runs{
     
