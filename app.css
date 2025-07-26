@@ -23,7 +23,7 @@ body {
   align-items: center;
   flex-direction: column;
     max-height: 250vh;
-    min-width: 100vw;
+    min-width: 120vw;
   }
   .runs{
     
